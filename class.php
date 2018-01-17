@@ -36,7 +36,7 @@ class Student extends Person{
     // Miras alınan sınıfta bulunan setName fonksiyonu override edilmistir
     // protected tanımlı fonksiyon yeniden tanımlanarak diger fonksiyonu gecersiz kılar
     protected function SetName($n) {
-    //   $this->name = strtolower($n);
-        $this->name = Person::SetName($n);
+        $this->name = strtolower($n);
+    //  parent::SetName($n);
     }
 }

@@ -15,15 +15,14 @@
 $obj_person = new Person("Yakup");
 // $obj_person->SetName("Emre");
 
-echo $obj_person->GetName();
+echo $obj_person -> GetName();
 echo "<br>";
-echo $obj_person->name;
+echo $obj_person -> name;
 // echo $obj_person->phone;     ERROR:phone is private
 
 echo "<br>";
 $obj_student = new Student("Hasancan");
-echo $obj_student->name;
-echo $obj_student->GetName();  
+echo $obj_student -> GetName();  // hasancan
 
 
 
