@@ -5,7 +5,6 @@
 // bu abstract metodları override etmek yerine kendilerini de cagırabiliriz
 abstract class Animal
 {
-
     protected $name;
 
     public function getName(){
@@ -13,7 +12,6 @@ abstract class Animal
     }
 
     abstract function getSound();   
-
 }
 
 
@@ -30,7 +28,6 @@ class Cat extends Animal
     public function getSound(){
         return 'Miyav';
     }
-
 }
 
 
@@ -41,6 +38,7 @@ class Dog extends Animal
     }
 }
 
+
 $cat = new Cat('Duman');
 echo $cat->getSound();
 echo $cat->getName();
@@ -48,6 +46,5 @@ echo PHP_EOL;
 
 $dog = new Dog();
 echo $dog->getSound();
-
 
 echo PHP_EOL;
