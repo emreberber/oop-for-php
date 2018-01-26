@@ -1,7 +1,7 @@
 <?php
 
 
-// interface icinde sadece soyut sınıf bulunur.Abstract class'dan farkı budur
+// interface icinde sadece soyut metod bulunur.Abstract class'dan farkı budur
 interface Logger
 {
     public function logSave();
